@@ -46,6 +46,49 @@ function App() {
           <h1>Bayern Munich vs Ajax, 5 January 2027.</h1>
           <p>Tickets on sale from 5 November.</p>
         </div>
+
+        <div className="mobile-layout" aria-label="Mobile match announcement">
+          <img className="mobile-stadium" src="/images/talanta-mobile-stadium.webp" alt="" />
+          <div className="mobile-shade" />
+          <header className="mobile-header">
+            <a className="brand" href="#home" aria-label="Talanta Sports City homepage">
+              <StadiumMark />
+            </a>
+            <a className="mobile-top-cta" href="#notify">GET NOTIFIED</a>
+          </header>
+          <img
+            className="mobile-player mobile-player-home"
+            src="https://talantasportscity.com/brand/match/players-home-900.webp"
+            alt=""
+          />
+          <img
+            className="mobile-player mobile-player-away"
+            src="https://talantasportscity.com/brand/match/players-away-900.webp"
+            alt=""
+          />
+          <div className="mobile-event">
+            <div className="mobile-venue">
+              <strong>RAILA ODINGA</strong>
+              <span>INTERNATIONAL STADIUM</span>
+              <span className="mobile-at"><i />AT<i /></span>
+              <b>TALANTA SPORTS CITY</b>
+              <small>NAIROBI <em>•</em> KENYA</small>
+            </div>
+            <h2 className="mobile-match-title">
+              <span>BAYERN</span>
+              <span>MUNICH</span>
+              <span className="mobile-versus">VS</span>
+              <span>AJAX</span>
+            </h2>
+            <div className="mobile-crests" aria-label="Bayern Munich and Ajax crests">
+              <img src="https://talantasportscity.com/brand/match/crest-home-360.webp" alt="FC Bayern München crest" />
+              <img src="https://talantasportscity.com/brand/match/crest-away-360.webp" alt="AFC Ajax crest" />
+            </div>
+            <p className="mobile-date">5TH JANUARY 2027</p>
+            <p className="mobile-ticket-copy">TICKETS ON SALE<br />FROM 5TH NOVEMBER</p>
+          </div>
+          <a className="mobile-cta" href="#notify">GET NOTIFIED</a>
+        </div>
       </section>
 
       <section className="notify" id="notify" aria-labelledby="notify-heading">
